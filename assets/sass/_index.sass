@@ -130,11 +130,11 @@ $susy: (debug: (image: hide))
 			justify-content: flex-start			
 			align-items: center
 			.hoticon
-				margin-right: 10px
+				margin-right: 0px
 				i 
-					font-size: 25px
+					font-size: 20px
 			h4 
-				font-size: 25px
+				font-size: 20px
 				margin-right: 20px
 				color: #555
 			h5 
@@ -884,6 +884,11 @@ header
 					color: #888
 					text-align: center
 
+
+
+
+
+
 .three_section
 	+susy-breakpoint($breakpoint_pad, $pad)
 		+container
@@ -998,9 +1003,9 @@ header
 				.newsvideo_item
 					margin-bottom: 5px
 					border-bottom: 1px dashed #eee
-					padding: 10px 0
+					padding: 10px 20px
 					display: flex
-					justify-content: center
+					justify-content: flex-start
 					align-items: flex-start
 					.year
 						font-size: 16px
@@ -1011,6 +1016,9 @@ header
 					.newsvideo_descript
 						font-size: 14px
 						color: #999
+						text-align: left
+						i 
+							margin-right: 5px
 
 			.todaycharacter
 				padding: 0 30px

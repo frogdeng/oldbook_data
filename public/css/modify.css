@@ -1,8 +1,12 @@
-
+/*
 .top_header_left img{
 	height:50px;
 }
 
+.top_header{
+	background: #d9d2af;
+	height:50px;
+}
 
 .top_header a {
 	font-size: 15px;
@@ -19,8 +23,8 @@
 	width:80%;
 	text-align: right;
 }
-
-header {
+*/
+/*header {
 	height:340px;
 	display: block;
 	margin-bottom:10px;
@@ -49,8 +53,9 @@ header .logo {
 
 .three_section .section_a .newsvideo .newsvideo_item {
     display: block; 
-}
-.deskmenu{
+}*/
+
+/*.deskmenu{
 	margin-bottom:20px;
 }
 .deskmenu ul li a {
@@ -80,7 +85,7 @@ header .logo {
     -ms-flex-pack: center;
     -ms-flex-align: center;
     align-items: center;
-}
+}*/
 
 .three_section .section_a .newsvideo .newsvideo_item .newsvideo_descript {
     font-size: 16px;
@@ -252,15 +257,15 @@ margin-left:5px;
     align-items: flex-end;
 }
 
-.selectCheckbox{
+/*.selectCheckbox{
 	width:10% !important; 
 	float:left;
 	padding-left:5%
-}
-.i-title{
+}*/
+/*.i-title{
 	width:90% !important; 
 	float:left;
-}
+}*/
 
 .selectCheckbox-list {
     width: 30px ;
