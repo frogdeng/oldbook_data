@@ -1,15 +1,11 @@
 
 $(function(){
 
-	$( document ).ready(function() {
-
-	$('.bxslider_1').bxSlider({
-	  pagerCustom: '.bx-pager_1'
+	$('.advanced_search_btn').click(function(){
+		$('.advanced_search').toggleClass( "h-show" )
+		return false
 	});
 
-
-
-});
 
 	// $('.advanced_search_btn').click(function(){
 	// 	$('.advanced_search').toggleClass( "h300" )
@@ -22,7 +18,7 @@ $(function(){
 	  $(".hamburg").click(function(){
 	     $('.aside').delay(200).toggleClass("hamburg-open");
 	     $(this).delay(200).toggleClass("active");
-	    });
+	    })
 
 
 	//   $(".login_info_btn").click(function(){
