@@ -2,10 +2,10 @@
 $(function(){
 
 	$( document ).ready(function() {
- 	
+
 	$('.bxslider_1').bxSlider({
 	  pagerCustom: '.bx-pager_1'
-	});	
+	});
 
 
 
@@ -16,17 +16,13 @@ $(function(){
 	// 	return false
 	// });
 
-	
-	// $('.toggle_btn').click(function(){
-	// 	$('.fat_footer').toggleClass( "fat-footer_show" )
-	// 	return false
-	// });
 
 
-	//   $(".hamburg").click(function(){
-	//      $('.aside').delay(200).toggleClass("hamburg-open");
-	//      $(this).delay(200).toggleClass("active");
-	//     });
+
+	  $(".hamburg").click(function(){
+	     $('.aside').delay(200).toggleClass("hamburg-open");
+	     $(this).delay(200).toggleClass("active");
+	    });
 
 
 	//   $(".login_info_btn").click(function(){
@@ -42,9 +38,9 @@ $(function(){
 
 	//   $(".second-goback").click(function(){
 	//       $('.m-second_bg').removeClass("second-open");
-	      
+
 	//     });
-	
+
 
 
 	//   $(".show-1").click(function(){
@@ -58,7 +54,7 @@ $(function(){
 	//     });
 	//   $(".show-4").click(function(){
 	//       $('.active-4').addClass("second-open");
-	//     });	  
+	//     });
 	//   $(".show-5").click(function(){
 	//       $('.active-5').addClass("second-open");
 	//     });
